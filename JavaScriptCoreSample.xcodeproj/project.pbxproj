@@ -22,6 +22,7 @@
 		2AA2EE9217F1F38C000CE10E /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 2AA2EE7117F1F38C000CE10E /* UIKit.framework */; };
 		2AA2EE9A17F1F38C000CE10E /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 2AA2EE9817F1F38C000CE10E /* InfoPlist.strings */; };
 		2AA2EE9C17F1F38C000CE10E /* JavaScriptCoreSampleTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 2AA2EE9B17F1F38C000CE10E /* JavaScriptCoreSampleTests.m */; };
+		2AA2EEA617F1F399000CE10E /* JavaScriptCore.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 2AA2EEA517F1F399000CE10E /* JavaScriptCore.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -55,6 +56,7 @@
 		2AA2EE9717F1F38C000CE10E /* JavaScriptCoreSampleTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "JavaScriptCoreSampleTests-Info.plist"; sourceTree = "<group>"; };
 		2AA2EE9917F1F38C000CE10E /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		2AA2EE9B17F1F38C000CE10E /* JavaScriptCoreSampleTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = JavaScriptCoreSampleTests.m; sourceTree = "<group>"; };
+		2AA2EEA517F1F399000CE10E /* JavaScriptCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = JavaScriptCore.framework; path = System/Library/Frameworks/JavaScriptCore.framework; sourceTree = SDKROOT; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -62,6 +64,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				2AA2EEA617F1F399000CE10E /* JavaScriptCore.framework in Frameworks */,
 				2AA2EE7017F1F38C000CE10E /* CoreGraphics.framework in Frameworks */,
 				2AA2EE7217F1F38C000CE10E /* UIKit.framework in Frameworks */,
 				2AA2EE6E17F1F38C000CE10E /* Foundation.framework in Frameworks */,
@@ -103,6 +106,7 @@
 		2AA2EE6C17F1F38C000CE10E /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
+				2AA2EEA517F1F399000CE10E /* JavaScriptCore.framework */,
 				2AA2EE6D17F1F38C000CE10E /* Foundation.framework */,
 				2AA2EE6F17F1F38C000CE10E /* CoreGraphics.framework */,
 				2AA2EE7117F1F38C000CE10E /* UIKit.framework */,
